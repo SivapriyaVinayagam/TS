@@ -1,0 +1,53 @@
+<html>
+    <title>Online course entrollment</title>
+    <head>
+        <link rel="stylesheet" href="../Online course entrollment/style/style.css">
+        <script src="../Online course entrollment/script/script.js"></script>
+
+    </head>
+    <body>
+        <div id="homepage">
+            <h1>WELCOME TO OUR SITE</h1>
+            <button onclick="newuser()" value="newuser">NEW USER</button>
+            <button onclick="login()" value="login">LOGIN</button>
+        </div>
+        <div id="user">
+            <h1>USER DETAILS</h1>
+            <label>User Name :</label>
+            <input type="text" id="name"><br><br>
+            <label>Age :</label>
+            <input type="number" id="age"><br><br>
+            <label>MobNo :</label>
+            <input type="number" id="mobno"><br><br>
+            <label>UserId :</label>
+            <input type="text" id="Userid"><br><br>
+            <button onclick="add()">ADD</button>
+
+        </div>
+        <div id="log">
+            <h1>LOGIN PAGE</h1>
+            <label>User Id :</label>
+            <input type="text" id="userid"><br><br>
+            <button onclick="Log()">LOGIN</button>
+        </div>
+        <div id="Option">
+            <h1>COURSE DETAILS</h1>
+            <button onclick="course()">Available Course</button>
+            <button onclick="Entrolledcourse()">Entrolled course</button>
+        </div>
+        <div id="Course">
+            <h1>ENTROLL PAGE</h1>
+            <label>Courses Name :</label>
+            <select id="cn" type="text">
+                <option id="cn"></option>
+                <option id="cn">C#</option>
+                <option id="cn">HTML</option>
+                <option id="cn">CSS</option>
+                <option id="cn">JAVASCRIPT</option>
+                <option id="cn">TYPESCRIPT</option>
+            </select><br><br>
+            <button onclick="entroll()">ENTROLL</button>
+        </div>
+       
+    </body>
+</html>
